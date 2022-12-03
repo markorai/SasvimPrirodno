@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section{
+     min-height: 100vh;
+     display: block;
+     opacity: 1;
+}
+
+#navbar-logo{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+#navbar-logo:hover{
+    background-color: rgba(0, 128, 0, 0.658);
+}
+.c-item{
+    height: 450px;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+.carousel-caption{
+    position: absolute;
+    top: 0;
+    margin-top: 10px;
+}
+.overview{
+    height: 180px;
+    background-color: rgb(248,249,250);
+}
+.overview i{
+    margin-right: 3px;
+    font-size: 20px;
+}
