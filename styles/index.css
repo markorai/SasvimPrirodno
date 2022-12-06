@@ -9,6 +9,7 @@
      opacity: 1;
 }
 
+
 #navbar-logo{
     width: 100px;
     height: 100px;
@@ -17,6 +18,11 @@
 #navbar-logo:hover{
     background-color: rgba(0, 128, 0, 0.658);
 }
+
+#home i{
+    margin-right: 5px;
+}
+
 .c-item{
     height: 450px;
 }
@@ -37,4 +43,82 @@
 .overview i{
     margin-right: 3px;
     font-size: 20px;
+}
+
+#farmers .container .row .col-lg-4{
+    display: none;
+}
+#farmers .container .row .col-lg-4:nth-child(1),
+#farmers .container .row .col-lg-4:nth-child(2),
+#farmers .container .row .col-lg-4:nth-child(3){
+    display: inline-block;
+}
+div .fa-angle-down{
+    cursor: pointer;
+}
+.wrapper-c{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#search-container{
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.active-c{
+    background-color: #0f5d5e !important ;
+    color: #fff !important;
+}
+#products{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-column-gap: 1.5em;
+    padding: 2em 0;
+    margin:auto;
+}
+.card2{
+    background-color: #ffffff;
+    max-width: 18em;
+    margin-top: 1em;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 1em 2em 2.5em rgba(1, 2, 68, 0.08);
+}
+.image-container{
+    text-align: center;
+}
+#products img{
+    max-width: 100%;
+    object-fit: contain;
+    height: 15em;
+}
+.container-c{
+    padding-top: 1em;
+}
+.container-c h5{
+    font-weight: 500;
+}
+.hide-c{
+    display: none;
+}
+
+@media screen and (max-width:720px) {
+    #products img{
+        max-width: 100%;
+        object-fit: contain;
+        height: 10em;
+        
+    }
+    .card2{
+        max-width: 10em;
+        margin-top: 1em;
+    }
+    #products{
+        grid-template-columns: auto auto;
+        grid-column-gap: 1em;
+    }
 }
