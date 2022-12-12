@@ -16,6 +16,7 @@ function loadMore(){
 
 }
 
+
 // WEB SHOP
 
 let products = {
@@ -71,7 +72,6 @@ for(let i of products.data){
     if(category.indexOf(" ") >= 0){
       category =   category.substring(0,category.indexOf(' '))
     }
-    console.log(category)
     let card = document.createElement("div");
     // card should have category and should stay hidden initially
     card.classList.add("card2",category,"hide-c"); // name of class and value
@@ -163,3 +163,4 @@ document.getElementById("search-btn").addEventListener("click",()=>{
 window.onload = () =>{
     filterProducts("Svi");
 }
+

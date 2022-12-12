@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap');
+*{
+    box-sizing: border-box;
+}
+#navbar-logo{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+#navbar-logo:hover{
+    background-color: rgba(0, 128, 0, 0.658);
+}
+ i{
+    margin-right: 5px;
+}

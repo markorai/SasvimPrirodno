@@ -1,4 +1,5 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -32,8 +33,9 @@
                     <a class="nav-item nav-link move-right" href="registration.php"><i class="fa-regular fa-user"></i>Registracija</a>
                   </div>
                 </div>
-              </nav>
-        
+              </nav>    
+              
+              <!-- ALERT WELCOME MESSAGE -->
 
         <!-- CAROUSEL -->
         <section id="hero-carousel" class="carousel slide" data-ride="carousel">
@@ -212,4 +214,3 @@
     <script src="../app/index.js"></script>
   </body>
 </html>
-   
